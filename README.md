@@ -5,4 +5,4 @@
 * *Posion  :  Network Manager*
 * *Line: Yuttapon.K*
 
- ![config](config.jpg)
+ ![adventure config](Config.jpg)
