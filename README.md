@@ -1,7 +1,8 @@
 # ghost0000heavy.github.io
 
-**[Yuttapon Kunkot](https://gitlab.com/ghsot0000heavyt/yuttapon.github.io/)**
-* *Working : Jgroup-Technology.co,Ltd*, * ลาดพร้าว* *&* *บางกระปิ* 
-* *Line: Yuttapon.K
+**[Yuttapon Kunkot](https://ghost0000heavy.github.io/)**
+* *Working : Jgroup-Technology.co,Ltd*, *427 Lad Prao Soi 107 * *,* *Klong-jun, Bangkok 10240 Thailand* 
+* *Posion  :  Network Manager*
+* *Line: Yuttapon.K*
 
  ![cat](cat.jpg)
