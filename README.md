@@ -2,7 +2,7 @@
 
 * *Working : Jgroup-Technology.co,Ltd, 427 Lad Prao Soi 107, Klong-jun, Bangkok 10240 Thailand* 
 * *Position  :  Network Manager*
-* *Line: Yuttapon.K*
+* *Line: Yuttapon K.*
 
  ![adventure config](Config.jpg)
 
