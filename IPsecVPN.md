@@ -16,7 +16,7 @@ Existing Active directory environment
  
 Existing DHCP Server Configuration: 
 
-      VPN clients will contact the DHCP server to obtain our internal TCP/IP configuration so they can access internal resources, the DHCP server configuration explained as below: 
+VPN clients will contact the DHCP server to obtain our internal TCP/IP configuration so they can access internal resources, the DHCP server configuration explained as below: 
       1. Server IP: 192.168.153.10/24 
       2. Scope range: 192.168.153.50 – 192.168.153.254 
       3. DG: 192.168.153.2
