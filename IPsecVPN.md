@@ -22,4 +22,17 @@ VPN clients will contact the DHCP server to obtain our internal TCP/IP configura
 2. Scope range: 192.168.153.50 – 192.168.153.254 
 3. DG: 192.168.153.2
 4. DNS: 192.168.153.10
+
  ![IPsecVPN-pic2](IPsecVPN_002.png)
+
+VPN Server Setup and Configurations 
+
+Server Name: VPN LAN 
+IP: 192.168.153.11/24
+WAN IP: public IP address 
+**Network configuration: 
+      We have 2 network interfaces one for LAN connectivity (in our domain scope) and another for WAN that will receive VPN client connection requests from internet.
+      
+      
+      
+      
