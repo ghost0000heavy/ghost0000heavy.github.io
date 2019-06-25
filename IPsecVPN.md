@@ -12,5 +12,5 @@ Existing Active directory environment
 3. Domain IP: 192.168.153.10/24 
 4. IP Scheme: 192.168.153.0/24
 
- ![IPsecVPN-pic1](IPsecVPN_001.jpg)
+ ![IPsecVPN-pic1](IPsecVPN_001.png)
 
