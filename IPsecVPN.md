@@ -54,6 +54,15 @@ On VPN server, from Server Manager add remote access role as explained in the fi
 ![IPsecVPN-pic11](IPsecVPN_011.png)
 ![IPsecVPN-pic12](IPsecVPN_012.png)
 
+Step 3: Enable and configure routing and remote access (Enable VPN Service) 
+
+1. On VPN, from Server Manager, open Routing and Remote Access. 
+2. Right-click VPN (local), and then click Configure and Enable Routing and Remote Access 
+and follow the instructions as explained in the figures below
+
+
+
+
 
       
       
