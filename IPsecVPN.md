@@ -60,6 +60,13 @@ Step 3: Enable and configure routing and remote access (Enable VPN Service)
 2. Right-click VPN (local), and then click Configure and Enable Routing and Remote Access 
 and follow the instructions as explained in the figures below
 
+![IPsecVPN-pic13](IPsecVPN_013.png)
+![IPsecVPN-pic14](IPsecVPN_014.png)
+![IPsecVPN-pic15](IPsecVPN_015.png)
+![IPsecVPN-pic16](IPsecVPN_016.png)
+![IPsecVPN-pic17](IPsecVPN_017.png)
+![IPsecVPN-pic18](IPsecVPN_018.png)
+
 
 
 
