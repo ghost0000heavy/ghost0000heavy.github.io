@@ -49,6 +49,10 @@ On VPN server, from Server Manager add remote access role as explained in the fi
 ![IPsecVPN-pic6](IPsecVPN_006.png)
 ![IPsecVPN-pic7](IPsecVPN_007.png)
 ![IPsecVPN-pic8](IPsecVPN_008.png)
+![IPsecVPN-pic9](IPsecVPN_009.png)
+![IPsecVPN-pic10](IPsecVPN_010.png)
+![IPsecVPN-pic11](IPsecVPN_011.png)
+![IPsecVPN-pic12](IPsecVPN_012.png)
 
 
       
