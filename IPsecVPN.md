@@ -14,7 +14,7 @@ Existing Active directory environment
 
  ![IPsecVPN-pic1](IPsecVPN_001.png)
  
-**Existing DHCP Server Configuration: 
+**Existing DHCP Server Configuration:**
 
 VPN clients will contact the DHCP server to obtain our internal TCP/IP configuration so they can access internal resources, the DHCP server configuration explained as below: 
 
@@ -25,7 +25,7 @@ VPN clients will contact the DHCP server to obtain our internal TCP/IP configura
 
      ![IPsecVPN-pic2](IPsecVPN_002.png)
 
-**VPN Server Setup and Configurations 
+**VPN Server Setup and Configurations**
 
 Server Name: VPN LAN 
 IP: 192.168.153.11/24
@@ -35,7 +35,7 @@ WAN IP: public IP address
       
 ![IPsecVPN-pic3](IPsecVPN_003.png) ![IPsecVPN-pic34](IPsecVPN_004.png)
 
-**VPN Configuration Steps: 
+**VPN Configuration Steps:**
 
 Step 1: Join VPN Server to ITPROLABS.XYZ domain 
 
@@ -79,14 +79,14 @@ Step 5: Configure a preshared key for IPSec connection On VPN server configure p
 
 ![IPsecVPN-pic21](IPsecVPN_021.png)
 
-**Disable PPTP connections 
+**Disable PPTP connections**
 
 By default, VPN Server can receive 128 concurrent PPTP, SSTP and L2TP connections, you can increase this number of concurrent connections or decrease it or disable it by decrease the mentioned number - 128 - to zero, as explained in the figures below
 
 ![IPsecVPN-pic22](IPsecVPN_022.png)
 ![IPsecVPN-pic23](IPsecVPN_023.png)
 
-**Allowing internet users to connect through VPN 
+**Allowing internet users to connect through VPN**
 
 Step 1: Active Directory Configuration Create active directory group to only allow members of this group to connect through VPN, to do this from active directory users and computers we will create active directory group (VPN_Users) and add member user to it (aabdelwahed) so we can use him as user testing. The following instructions are configured on ITPROLABS.XYZ domain (DC01)
 
@@ -127,7 +127,7 @@ Make sure that your created policy order is 1
 
 
 
-**Testing
+**Testing**
 
 Create VPN connection from windows 10 Client .
 First, create VPN connection to VPN Server public IP address (as explained in the figures below)
@@ -141,7 +141,7 @@ Now, configure our connection to use L2TP (as explained in the below figures)
 ![IPsecVPN-pic40](IPsecVPN_040.png)
 ![IPsecVPN-pic41](IPsecVPN_041.png)
 
-**Allowinternet connectivity with VPN
+**Allowinternet connectivity with VPN**
 
 By default, the connected to VPN clients can’t browse internet to solve this issues solved as explained in the figures below.
 
@@ -156,15 +156,9 @@ Now, run ipconfig /all to check your VPN connection configuration, so now you ca
 
 ![IPsecVPN-pic45](IPsecVPN_045.png)
 
-**Check connected VPN client Status 
+**Check connected VPN client Status**
 
 Now back to VPN server to check status of connected users also you can force disconnect any connected users as explained in the figures below.
 
 ![IPsecVPN-pic46](IPsecVPN_046.png)
 ![IPsecVPN-pic47](IPsecVPN_047.png)
-
-
-      
-      
-      
-      
