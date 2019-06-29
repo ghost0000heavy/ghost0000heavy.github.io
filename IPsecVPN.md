@@ -67,6 +67,24 @@ and follow the instructions as explained in the figures below
 ![IPsecVPN-pic17](IPsecVPN_017.png)
 ![IPsecVPN-pic18](IPsecVPN_018.png)
 
+Step 4: Allow VPN clients to obtain TCP/IP configuration from DHCP and use internal DNS 
+
+Here we will allow incoming VPN clients to obtain TCP/IP configuration from DHCP, also It’s better to allow VPN users to use the internal DNS server, so they can locate and access internal resources easily
+
+![IPsecVPN-pic19](IPsecVPN_019.png)
+![IPsecVPN-pic20](IPsecVPN_020.png)
+
+
+Step 5: Configure a preshared key for IPSec connection On VPN server configure preshared key that will be used in IPSec connections
+
+![IPsecVPN-pic21](IPsecVPN_021.png)
+![IPsecVPN-pic22](IPsecVPN_022.png)
+
+
+
+
+
+
 
 
 
