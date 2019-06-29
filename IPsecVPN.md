@@ -78,7 +78,9 @@ Here we will allow incoming VPN clients to obtain TCP/IP configuration from DHCP
 Step 5: Configure a preshared key for IPSec connection On VPN server configure preshared key that will be used in IPSec connections
 
 ![IPsecVPN-pic21](IPsecVPN_021.png)
-![IPsecVPN-pic22](IPsecVPN_022.png)
+
+Disable PPTP connections 
+By default, VPN Server can receive 128 concurrent PPTP, SSTP and L2TP connections, you can increase this number of concurrent connections or decrease it or disable it by decrease the mentioned number - 128 - to zero, as explained in the figures below
 
 
 
