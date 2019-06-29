@@ -103,11 +103,65 @@ Step 2 : Configure the Remote Access policies (NPS)
 Users you want to allow them to connect through VPN must have grant access permission from Network policy Server or give users dial in grant access (One by one) permission from active directory users and computers wizard, in our scenario we will configure this permission through Network Policy Server (NPS) to allow members of VPN_Users group (Bulk Users) that we just created in active directory to access the network through VPN. the following steps configured on VPN Server.
 On VPN, from Server Manager, open the Network Policy Server console
 
+![IPsecVPN-pic27](IPsecVPN_027.png)
+![IPsecVPN-pic28](IPsecVPN_028.png)
+![IPsecVPN-pic29](IPsecVPN_029.png)
+![IPsecVPN-pic30](IPsecVPN_030.png)
+
+add users and groups that you want to allow them to connect through VPN
+
+![IPsecVPN-pic31](IPsecVPN_031.png)
+![IPsecVPN-pic32](IPsecVPN_032.png)
+
+from this wizard, we can apply some polices and restrictions on VPN clients like session time limit.
+
+![IPsecVPN-pic33](IPsecVPN_033.png)
+![IPsecVPN-pic34](IPsecVPN_034.png)
+
+Configuration summary
+
+![IPsecVPN-pic35](IPsecVPN_035.png)
+
+Make sure that your created policy order is 1
+![IPsecVPN-pic36](IPsecVPN_036.png)
 
 
 
+**Testing
 
+Create VPN connection from windows 10 Client .
+First, create VPN connection to VPN Server public IP address (as explained in the figures below)
 
+![IPsecVPN-pic37](IPsecVPN_037.png)
+![IPsecVPN-pic38](IPsecVPN_038.png)
+![IPsecVPN-pic39](IPsecVPN_039.png)
+
+Now, configure our connection to use L2TP (as explained in the below figures)
+
+![IPsecVPN-pic40](IPsecVPN_040.png)
+![IPsecVPN-pic41](IPsecVPN_041.png)
+
+**Allowinternet connectivity with VPN
+
+By default, the connected to VPN clients can’t browse internet to solve this issues solved as explained in the figures below.
+
+![IPsecVPN-pic42](IPsecVPN_042.png)
+
+Connect to VPN Now you can use your VPN connection using aabdelwahed user who have grant access permission to connect through VPN according to his membership on VPN_Users group.
+
+![IPsecVPN-pic43](IPsecVPN_043.png)
+![IPsecVPN-pic44](IPsecVPN_044.png)
+
+Now, run ipconfig /all to check your VPN connection configuration, so now you can access the network resources based on your permissions.
+
+![IPsecVPN-pic45](IPsecVPN_045.png)
+
+**Check connected VPN client Status 
+
+Now back to VPN server to check status of connected users also you can force disconnect any connected users as explained in the figures below.
+
+![IPsecVPN-pic46](IPsecVPN_046.png)
+![IPsecVPN-pic47](IPsecVPN_047.png)
 
 
       
