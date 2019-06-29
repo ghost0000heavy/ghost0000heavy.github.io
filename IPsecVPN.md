@@ -33,6 +33,6 @@ WAN IP: public IP address
 **Network configuration: 
       We have 2 network interfaces one for LAN connectivity (in our domain scope) and another for WAN that will receive VPN client connection requests from internet.
       
-      ![IPsecVPN-pic2](IPsecVPN_003.png)    ![IPsecVPN-pic2](IPsecVPN_004.png)
+![IPsecVPN-pic3](IPsecVPN_003.png)    ![IPsecVPN-pic34](IPsecVPN_004.png)
       
       
