@@ -33,6 +33,25 @@ WAN IP: public IP address
 **Network configuration: 
       We have 2 network interfaces one for LAN connectivity (in our domain scope) and another for WAN that will receive VPN client connection requests from internet.
       
-![IPsecVPN-pic3](IPsecVPN_003.png)    ![IPsecVPN-pic34](IPsecVPN_004.png)
+![IPsecVPN-pic3](IPsecVPN_003.png) ![IPsecVPN-pic34](IPsecVPN_004.png)
+
+VPN Configuration Steps: 
+
+Step 1: Join VPN Server to ITPROLABS.XYZ domain 
+
+First, Join our VPN server to ITPROLABS.XYZ domain, so we can use active directory to authenticate the incoming VPN client connections.
+![IPsecVPN-pic5](IPsecVPN_005.png)
+
+Step 2: Add Remote Access role
+
+On VPN server, from Server Manager add remote access role as explained in the figures below
+
+![IPsecVPN-pic6](IPsecVPN_006.png)
+![IPsecVPN-pic7](IPsecVPN_007.png)
+![IPsecVPN-pic8](IPsecVPN_008.png)
+
+
+      
+      
       
       
