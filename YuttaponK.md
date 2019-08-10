@@ -1,10 +1,10 @@
-# Requirement ID : V2
+# Requirement ID : V2.2 
 
-# Requirement Name :Authentication Verification Requirements
+# Requirement Name : General Authenticator Requirements
 
-# OTG #1 :V2.1 Password Security Requirements
+# OTG #1 : Verify that the use of weak authenticators (such as SMS and email) 
 
-# OTG #2 :V2.2 General Authenticator Requirements
+# OTG #2 :
 
 
 
